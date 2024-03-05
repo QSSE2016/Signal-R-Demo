@@ -6,4 +6,4 @@ Messages to send to the Hub
 Invoke message on Hub from Client
 * {"arguments":["My Test Message LOL"], "invocationId":"0","target": "SendMessage","type":1} , (after the first command) calls the SendMessage function on the Hub with argument "My Test Message LOL". InvocationId is simply an id for the invocation (calling) of a method (error checking and stuff). type specifies the type of action (e.g 1 = method invocation,3 = completion etc.)
 
-
+- Hub is now strongly-typed meaning there are specific things that are exposed to the client now, not just random strings. (Check IChatClient interface)
