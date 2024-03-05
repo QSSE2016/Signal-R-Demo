@@ -18,6 +18,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+
 // specify route (in this chase "chat-hub") for my clients to connect to.
 app.MapHub<ChatHub>("chat-hub");
 
