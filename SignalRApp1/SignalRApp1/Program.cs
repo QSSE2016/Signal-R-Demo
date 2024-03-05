@@ -4,7 +4,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 // SignalR configuration
-
+builder.Services.AddSignalR();
 
 var app = builder.Build();
 
